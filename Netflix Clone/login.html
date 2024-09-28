@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+<body>
+    <nav>
+        <a href="#"><img src="./src/assets/img/logo_netflix.png" alt="logo"></a>
+    </nav>
+    <!-- Criando div para o background exclusivo da tela de login -->
+    <div class="background-login">
+    </div>
+    <!-- Criando o formulário de login -->
+    <div class="form-wrapper">
+        <h2>Login</h2>
+        <form action="#">
+            <div class="form-control">
+                <input type="email" required>
+                <label>Email ou número de telefone</label>
+            </div>
+            <div class="form-control">
+                <input type="password" minlength="6" required>
+                <label>Senha</label>
+            </div>
+            <button type="submit" formaction="index.html">Login</button>
+            <div class="form-help"> 
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Lembrar-se de mim</label>
+                </div>
+                <a href="#">Precisa de ajuda?</a>
+            </div>
+        </form>
+        <p>Novo na Netflix? <a href="#">Registre-se agora</a></p>
+        <small>
+            Essa página é protegida pelo Google reCAPTCHA para garantir que você não é um bot. 
+            <a href="#">Saber mais.</a>
+        </small>
+    </div>
+</body>
+</html>
